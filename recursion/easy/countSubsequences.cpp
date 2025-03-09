@@ -1,3 +1,6 @@
+//Given an array nums and an integer k.Return the number of non-empty subsequences of nums such that the sum of all elements in the subsequence is equal to k.
+#include <bits/stdc++.h>
+using namespace std;
 class Solution{
   private:
       int findSubsequences(int index, vector<int>& nums, int requiredSum){
